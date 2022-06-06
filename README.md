@@ -8,6 +8,30 @@ This application has 7 different services. Each of the service has its own mongo
 
 <h4> Below are the few screen shots of application </h4>
 
+# Technology
+
+Ticket Reservation project uses a number of open source projects to work properly:
+
+Nodejs - Application framework
+nginx - API Gateway (Load Balancer)
+Docker - Containerization platform
+Kubernetes - To create instance of docker image and run pods
+NATS-Streaming - Asynchronous Micro Services Messaging.
+React - HTML enhanced for web apps!
+Bootstrap - great UI boilerplate for modern web apps
+Type Script and Js - Programming Languages
+Git - Version control
+
+# Development
+
+Below are the steps to bring up the development environment and get started.
+Clone the project (https://github.com/naveedamir484/Ticket-Reservation-App)
+Install Git, Nodejs, skaffold, kubernetes and Docker
+Do NPM install for all services
+Execute "cd /ticketing/"
+To deploy run "skaffold dev"
+Access the Application at  "ticketing.dev"
+
 
 
 
