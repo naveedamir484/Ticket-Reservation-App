@@ -11,7 +11,7 @@ This application has 7 different services. Each of the service has its own mongo
 <hr></hr>
 
 <p align="center">
-  <img src="images/1.png" style="border-radius: 1rem " width="400" alt="accessibility text">
+  <img src="images/1.png" style="border-radius: 1rem " width="600" alt="accessibility text">
 </p>
 
 <hr></hr>
