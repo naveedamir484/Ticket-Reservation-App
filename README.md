@@ -6,6 +6,16 @@ In this project you gonna find out how multiple services run independently and l
 # Use-case
 This application has been divided into 7 different services. Each of the service has its own mongoDB database respectively. All these services are converted into Docker image and then pushed into kubernetes container and further the traffic is controlled using nginx. I have implemented messagaing queue system using NATS-streaming for inter communication within services.
 
+* Auth -> Provide all authentication services like login,logout, sinup and creating cookies etc.
+* Client -> Resposible for UI at client side.
+* Common -> This directory hold all common modules and code used throughout all different services.
+* Expiration -> Setup expiration time using MESSAGING QUEUE when an order is created.
+* Order -> Provide all the service regarding order like create order,show orders,delete order etc.
+* Payment -> For creating payment.
+* Tickets -> For Creation of ticket along with UPDATION, DELETION etc. 
+
+All the above listed services have their event listeners and publishers to INTER SERVICE COMMUNICATION.
+
 <h4> Below are the few screen shots of application </h4>
 
 <hr></hr>
