@@ -18,8 +18,8 @@ export default () =>{
           await doRequest();
       };
 
-     return (<form  onSubmit = {onSubmit}>
-           <h1>Signup</h1>
+      return (<form className="signinForm" onSubmit = {onSubmit}>
+           <h1 className="heading">Create Account</h1>
            <div className='form-group'>
                 <label> Email Address</label>
                 <input value={email} onChange={e => setEmail(e.target.value)} className='form-control'></input>
@@ -31,7 +31,7 @@ export default () =>{
 
            {errors}
       
-           <button className="btn btn-primary">Sign Up</button>
+           <button className="btn btn-primary signInbtn">Lets Go</button>
           </form>);
 
 }

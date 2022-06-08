@@ -14,7 +14,7 @@ const start = async ()=>{
     if(!process.env.NATS_URL)throw new Error('NATS_URL must be defined.');
 
      
-    // connecting with database and NATS inside try catch block   fdfsd
+    // connecting with database and NATS inside try catch block 
     try{
 
         await natsWrapper.connect(  process.env.NATS_CLUSTER_ID,

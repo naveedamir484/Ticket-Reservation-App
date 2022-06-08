@@ -78,7 +78,7 @@ const start = async ()=>{
 
             // adding the listeners
             new OrderCreatedListener(natsWrapper.client).listen();
-            new OrderCreatedListener(natsWrapper.client).listen();
+            new OrderCancelledListener(natsWrapper.client).listen();
             
         await mongoose.connect(process.env.MONGO_URI,{ });
         console.log('connection established to  ticket MongoDB.....')

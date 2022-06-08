@@ -5,6 +5,8 @@ import Router from 'next/router';
 
 const OrderShow =({order, currentUser})=>{
 
+     console.log('this is order looking for',order);
+
      const [timeLeft, setTimeLeft]=useState(0);
 
      const {doRequest, errors} = userRequest({
@@ -31,11 +33,24 @@ const OrderShow =({order, currentUser})=>{
 
      },[]);
 
-     if(timeLeft < 0)return <div> Order expired </div>
+     if(timeLeft < 0) Router.push('/orders');
 
-     return <div>
-            <h2>Your Order will expire in {timeLeft} seconds</h2>
-            <button onClick={doRequest} className="btn btn-success">Pay with Card</button>
+     return <div className="order">
+            
+            <div className="">
+            <div className="addoncolor">
+               <div className="fw-bold">{order.ticket.title} </div>
+                    Price : {order.ticket.price} INR <br></br>
+                    order Id : {order.id} <br></br>
+               <h6 className="green">Status : {order.status}</h6>
+           </div>
+            </div>
+
+            <h4 className="headingorder">Your Order will expire in {timeLeft} seconds</h4>
+            <div className="progress">
+            <div className="progress-bar " role="progressbar" style={{width: timeLeft*1.68+"%"}}  ></div>
+            </div>
+            <button onClick={doRequest} className="btn paybutton">Pay with Card</button>
             </div>
 
 };

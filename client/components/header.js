@@ -11,19 +11,17 @@ export default ({ currentUser}) => {
           .filter(linkConfig => linkConfig)
           .map(( {label,href}) =>{
                 
-               return  <Link href={href}><a key={href} className="nav-link">{label}</a></Link>
+               return  <Link key={href}  href={href}><a key={href} className="navbar-brand">{label}</a></Link>
               
           });
 
-     return (<nav className="navbar navbar-light bg-warning">
-          <Link href="/">
-               <a className="navbar-brand">Home</a>
-          </Link>
 
-          <div className="d-flex justify-content-end">
-               <ul className="nav d-flex align-items-center">
-                  { links}
-               </ul>
-          </div>
+     return (<nav className="navbar navbar-light ">
+           
+           { currentUser ? <Link href="/"><a className="navbar-brand">Home</a></Link> :
+               <Link href="/auth/signin"><a className="navbar-brand">@ticket_reservation.com</a></Link>}
+          
+          <li  className=" d-flex " > { links} </li>
+        
      </nav>);
 }
