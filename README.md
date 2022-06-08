@@ -8,6 +8,32 @@ This application has 7 different services. Each of the service has its own mongo
 
 <h4> Below are the few screen shots of application </h4>
 
+<hr></hr>
+
+<p align="center">
+  <img src="images/1.png" style="border-radius: 1rem " width="400" alt="accessibility text">
+</p>
+
+<hr></hr>
+
+<p align="center">
+  <img src="images/2.png" style="border-radius: 1rem " width="600" alt="accessibility text">
+</p>
+
+<hr></hr>
+
+<p align="center">
+  <img src="images/3.png" style="border-radius: 1rem " width="600" alt="accessibility text">
+</p>
+
+<hr></hr>
+
+<p align="center">
+  <img src="images/4.png" style="border-radius: 1rem " width="600" alt="accessibility text">
+</p>
+
+<hr></hr>
+
 # Technology
 
 Ticket Reservation project uses a number of open source projects to work properly:
