@@ -19,17 +19,17 @@ All the above listed services have their event listeners and publishers to INTER
 <h4> Below are the few screen shots of application </h4>
 
 <hr></hr>
-<p align="center"><img src="images/1.png" style="border-radius: 1rem " width="600" alt="accessibility text"></p>
+<p align="center"><kbd><img src="images/1.png" style="border-radius: 1rem " width="600" alt="accessibility text"></kbd></p>
 <hr></hr>
-<p align="center"><img src="images/2.png" style="border-radius: 1rem " width="600" alt="accessibility text"></p>
+<p align="center"><kbd><img src="images/2.png" style="border-radius: 1rem " width="600" alt="accessibility text"></kbd></p>
 <hr></hr>
-<p align="center"><img src="images/3.png" style="border-radius: 1rem " width="600" alt="accessibility text"></p>
+<p align="center"><kbd><img src="images/3.png" style="border-radius: 1rem " width="600" alt="accessibility text"></kbd></p>
 <hr></hr>
-<p align="center"><img src="images/4.png" style="border-radius: 1rem " width="600" alt="accessibility text"></p>
+<p align="center"><kbd><img src="images/4.png" style="border-radius: 1rem " width="600" alt="accessibility text"></kbd></p>
 <hr></hr>
-<p align="center"><img src="images/5.png" style="border-radius: 1rem " width="600" alt="accessibility text"></p>
+<p align="center"><kbd><img src="images/5.png" style="border-radius: 1rem " width="600" alt="accessibility text"></kbd></p>
 <hr></hr>
-<p align="center"><img src="images/6.png" style="border-radius: 1rem " width="600" alt="accessibility text"></p>
+<p align="center"><kbd><img src="images/6.png" style="border-radius: 1rem " width="600" alt="accessibility text"></kbd></p>
 <hr></hr>
 
 # Technology
