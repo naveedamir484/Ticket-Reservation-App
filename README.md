@@ -74,6 +74,16 @@ Below are the steps to bring up the development environment and get started.
 * To deploy run "skaffold dev"
 * Access the Application at  "ticketing.dev"
 
+# Feedback
+Feel free to report issues and bugs. It will be helpful for further upgradation of this website.
+
+# Developer
+<li>This is open source and free to use for everyone.</li>
+<li>Developed By: Naveed Aamir </li>
+<li>Email: naveedamir484@gmail.com </li>
+<li>Date: June 2022</li>
+<li>Language: Java-script & TS</li>
+
 
 
 
